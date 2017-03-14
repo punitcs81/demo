@@ -16,7 +16,6 @@
 		<database.driver>com.mysql.jdbc.Driver</database.driver>
 		<database.url>jdbc:mysql://localhost:3306/</database.url>
 		<flyway.schemas>test2,test</flyway.schemas>
-		<flyway.multipleDbMode>true</flyway.multipleDbMode>
 		<database.username>root</database.username>
 		<database.password>password</database.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
