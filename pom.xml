@@ -15,10 +15,10 @@
 		<mysql.driver.version>5.1.13</mysql.driver.version>
 		<database.driver>com.mysql.jdbc.Driver</database.driver>
 		<database.url>jdbc:mysql://localhost:3306/</database.url>
-		<flyway.schemas>test2,test</flyway.schemas>
+		<flyway.schemas>test</flyway.schemas>
 		<flyway.multipleDbMode>true</flyway.multipleDbMode>
 		<database.username>root</database.username>
-		<database.password>password</database.password>
+		<database.password>root</database.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 	</properties>
@@ -54,8 +54,8 @@
 							<user>root</user>
 							<password>root</password>
                                                         <schemas>
-							   <schema>test2</schema>
-							   <schema>test1</schema>
+							   <schema></schema>
+							   <schema>test</schema>
 							</schemas>
 							<flyway.multipleDbMode>true</flyway.multipleDbMode>
 							<locations>
